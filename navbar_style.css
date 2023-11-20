@@ -1,0 +1,41 @@
+.navbar {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-evenly;
+  background-color: rgb(254, 247, 226);
+  width: 1030px;
+  height: 160px;
+  border-radius: 90px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.logo {
+  height: 50px;
+  padding-right: 50px;
+}
+
+button {
+  cursor: pointer;
+  flex: 1 1 1;
+  margin: 4px;
+  padding-inline: 40px;
+  padding-block: 15px;
+  border: none;
+  background-color: rgb(255, 223, 126);
+  border-radius: 50px;
+  font-size: 13pt;
+}
+
+button:hover {
+  box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.1);
+}
+
+.shop-button {
+  display: flex;
+  align-items: center;
+  font-weight: 600;
+  padding-block: 20px;
+  padding-right: 50px;
+  font-size: 20pt;
+}

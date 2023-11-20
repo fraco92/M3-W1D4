@@ -1,0 +1,64 @@
+/* body {
+  display: flex;
+} */
+
+/* #rif {
+  width: 422px;
+} */
+
+.card {
+  font-family: Arial, Helvetica, sans-serif;
+  width: 400px;
+  height: 550px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border-radius: 120px;
+  object-fit: cover;
+  overflow: hidden;
+  background-color: rgb(254, 247, 226);
+}
+
+#img-honey {
+  height: 375px;
+}
+
+.txt-area {
+  width: 100%;
+  padding-top: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 20%;
+}
+
+.info-product {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.name-product {
+  font-size: 18pt;
+  font-weight: 600;
+}
+
+.char-product,
+.price {
+  font-size: 14pt;
+  font-weight: 400;
+}
+
+.price {
+  font-size: 16pt;
+}
+
+button {
+  margin-top: 20px;
+  padding-block: 12px;
+  padding-inline: 70px;
+  border: none;
+  background-color: rgb(255, 223, 126);
+  border-radius: 35px;
+  font-size: 13pt;
+}
